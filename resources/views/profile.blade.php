@@ -2,14 +2,15 @@
 
 @section('title','Profile Title')
 @section('content')
-   <div class="container"> 
-       <div class="row">
-           <div class="col"-10>
-               <h1 class="mt"-3>Hellow Profile</h1> 
-               <div>
-                   Perusahaan yang bergerak dibidang Textil yang menyediakan pemesanan kain dengan beberapa motif yang menarik
-               </div>
-            </div>
-       </div>
-   </div>
+<div class=container>
+ 
+<h1> Prabu Textile </h1>
+<br>
+<h3>Profile Perusahaan</h3>
+    <tr>
+        Perusahaan yang bergerak dibidang industri kain yang didirikan pada tahun 2019 bertempat di bandung <br>
+        
+        </tr>
+    </div>  
+
 @endsection
