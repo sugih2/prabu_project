@@ -1,6 +1,6 @@
 @extends("layouts.app")
 
-@section("container")
+@section("content")
 
 <div class ="col-md-8 offset-md-2">
     <h3>Edit Pelanggan</h3>

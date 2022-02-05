@@ -1,7 +1,7 @@
 @extends('layouts/app')
 
 @section('title','Stock Kain')
-@section('container')
+@section('content')
 
 @if ($errors->any())
     <div class="alert alert-danger">
