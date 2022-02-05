@@ -3,6 +3,6 @@
 @section("content")
 <div class="col-sm-12">
 <img src="{{ ('img/kain.jpg') }}" class="img-fluid" alt="...">
-TES
+
 </div>
 @stop

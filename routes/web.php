@@ -11,20 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+route::get('/','MenuController@home');
+route::get('/profile','MenuController@profile');
+route::get('/penjualan','MenuController@penjualan');
 
+route::resource('/stock','StockController');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
-
-Route::get('/pegawai', 'PegawaiController@index')->name('home');
